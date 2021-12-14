@@ -21,8 +21,13 @@
 ### 1주차
 * 오버로딩과 오버라이딩
 * 동일성(identity)와 동등성(equality)
+### 2주차
+* synchronized 예약어
+* java thread
+
 
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
 | 21.12.14 | 동일성(identity)와 동등성(equality) | 오버로딩과 오버라이딩 |
+| 21.12.21 | java thread | synchronized 예약어 |
