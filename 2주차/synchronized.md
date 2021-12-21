@@ -215,7 +215,7 @@ public class Method {
 
 이 상황에서 스레드3에는 동기화가 발생하지 않은 것을 확인할 수 있다.
 
-결과를 보면 알 수 있듯이 `**synchronized` 메소드는 인스턴스 단위로 `lock` 을 걸지만, `synchronized` 키워드가 붙은 메소드에 대해서만 `lock` 을 공유한다.**
+결과를 보면 알 수 있듯이 **`synchronized` 메소드는 인스턴스 단위로 `lock` 을 걸지만, `synchronized` 키워드가 붙은 메소드에 대해서만 `lock` 을 공유한다.**
 
 ## static synchronized method
 
