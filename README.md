@@ -24,10 +24,14 @@
 ### 2주차
 * synchronized 예약어
 * java thread
-
+### 3주차
+* vector, JVM 원자성
+* volatile, 뮤텍스, 세마포어
+* thread pool
 
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
 | 21.12.14 | 동일성(identity)와 동등성(equality) | 오버로딩과 오버라이딩 |
 | 21.12.21 | java thread | synchronized 예약어 |
+| 21.12.28 | thread pool | volatile, 뮤텍스, 세마포어, vector, JVM 원자성 |
