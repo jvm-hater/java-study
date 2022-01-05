@@ -21,21 +21,26 @@
 ### 1주차
 * 오버로딩과 오버라이딩
 * 동일성(identity)와 동등성(equality)
+
 ### 2주차
 * synchronized 예약어
 * java thread
+
 ### 3주차
 * 자바의 동시성 이슈(공유자원 접근)
   * volatile
   * 뮤텍스
   * 세마포어
   * synchronized(내용 추가)
-    * vector
-    * JVM 원자성
 * thread pool
+
 ### 4주차
-* Concurrent
+* atomic
 * 가변 객체와 불변 객체
+
+### 5주차
+* Concurrent
+* String vs StringBuilder vs StringBuffe
 
 ## Timeline
 | 날짜 | 진영 | 상우 |
@@ -43,4 +48,5 @@
 | 21.12.14 | 동일성(identity)와 동등성(equality) | 오버로딩과 오버라이딩 |
 | 21.12.21 | java thread | synchronized 예약어 |
 | 21.12.28 | thread pool | 자바의 동시성 이슈 |
-| 22.1.4 | 가변 객체 vs 불변 객체 | Concurrent |
+| 22.01.04 | 가변 객체 vs 불변 객체 | atomic |
+| 22.01.11 | String vs StringBuilder vs StringBuffer | Concurrent |
