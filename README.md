@@ -40,7 +40,7 @@
 
 ### 5주차
 * Concurrent
-* String vs StringBuilder vs StringBuffe
+* String vs StringBuilder vs StringBuffer
 
 ## Timeline
 | 날짜 | 진영 | 상우 |
