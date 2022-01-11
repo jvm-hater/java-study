@@ -42,6 +42,10 @@
 * Concurrent
 * String vs StringBuilder vs StringBuffer
 
+### 6주차
+* Checked Exception과 Unchecked Exception
+* 직렬화와 역직렬화
+
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
@@ -50,3 +54,4 @@
 | 21.12.28 | thread pool | 자바의 동시성 이슈 |
 | 22.01.04 | 가변 객체 vs 불변 객체 | atomic |
 | 22.01.11 | String vs StringBuilder vs StringBuffer | Concurrent |
+| 22.01.18 | 직렬화와 역직렬화 | Checked Exception과 Unchecked Exception |
