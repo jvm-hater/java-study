@@ -46,6 +46,10 @@
 * Checked Exception과 Unchecked Exception
 * 직렬화와 역직렬화
 
+### 7주차
+* JVM - 1
+* GC - 1
+
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
@@ -55,3 +59,4 @@
 | 22.01.04 | 가변 객체 vs 불변 객체 | atomic |
 | 22.01.11 | String vs StringBuilder vs StringBuffer | Concurrent |
 | 22.01.18 | 직렬화와 역직렬화 | Checked Exception과 Unchecked Exception |
+| 22.01.25 | GC - 1 | JVM - 1 |
