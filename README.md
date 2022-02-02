@@ -54,6 +54,10 @@
 * G1 GC
 * JVM의 클래스 로더
 
+### 9주차
+* GC 모니터링
+* JVM 모니터링
+
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
@@ -65,3 +69,4 @@
 | 22.01.18 | 직렬화와 역직렬화 | Checked Exception과 Unchecked Exception |
 | 22.01.25 | GC | JVM |
 | 22.02.01 | G1 GC | JVM의 클래스 로더 |
+| 22.02.08 | GC 모니터링 | JVM 모니터링 |
