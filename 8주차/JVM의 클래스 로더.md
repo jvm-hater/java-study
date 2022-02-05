@@ -164,7 +164,7 @@ JLS(Java Language Specification)에 따르면 JVM에 클래스가 로딩되고 �
 
 ### **싱글톤(Singleton)**
 
-아래와 같이 **Initialization-on-demand holder idiom 방식(holder에 의한 초기화)**을 사용하면 클래스 로딩 및 초기화 과정이 스레드 세이프함을 이용해서 싱글톤 인스턴스를 생성할 수 있다.
+아래와 같이 **Initialization-on-demand holder idiom 방식(holder에 의한 초기화 방식)**을 사용하면 클래스 로딩 및 초기화 과정이 스레드 세이프함을 이용해서 싱글톤 인스턴스를 생성할 수 있다. 다양한 싱글톤 패턴이 있지만, 이 패턴이 가장 완벽하다고 평가받는 패턴이다.
 
 **Holder에 의한 초기화 방식**
 
@@ -184,12 +184,14 @@ public class HolderSingleton {
 }
 ```
 
-클래스의 로딩, 초기화 시점을 알기 전까지 Holder에 의한 초기화 방식을 사용하지 않고 아래와 같이 `static final` 키워드를 사용하면 되지 않을까? 라는 의문이 들었다.
+클래스의 로딩, 초기화 시점을 알기 전까지 Holder에 의한 초기화 방식을 사용하지 않고 아래와 같이 `static final` 키워드를 사용하면 되지 않을까? 라는 의문이 들었다.
+
+**Eager initialization (이른 초기화 방식)**
 
 ```java
 public class Singleton {
 
-    public static final Singleton instance = new Singleton ();
+    public static final Singleton instance = new Singleton();
 
     private Singleton () {
     }
@@ -200,8 +202,10 @@ public class Singleton {
 }
 ```
 
-그러나 이 방식은 해당 클래스가 로드될 때 사용하지 않는 싱글톤 변수가 로드되기 때문에 메모리가 낭비되는 방식이다. 
-따라서 해당 클래스가 로드되어도 내부 클래스는 로드되지 않는다는 클래스 로더의 특성을 이용한 **Initialization-on-demand holder idiom 방식**을 사용하는 것이 메모리 낭비가 일어나지 않는다.
+그러나 이 방식은 `Singleton` 클래스가 로딩될 때 사용하지 않을 수도 있는 instance 변수(싱글톤 객체)가 생성되기 때문에 **메모리가 낭비**된다.
+예를 들면, 정적 변수 또는 정적 메소드만 사용하려 하는데 클래스가 로딩되면서 `static` 키워드가 붙은 `instance` 변수가 초기화되어 싱글톤 객체가 생성되는 것이다. 
+
+따라서 해당 클래스가 로드되어도 내부 클래스는 로드되지 않는다는 클래스 로더의 특성을 이용한 **Holder에 의한 초기화 방식**을 사용하는 것이 더 좋다.
 
 ## 참고
 
