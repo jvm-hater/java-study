@@ -66,6 +66,10 @@
 * JCF - Set, Map
 * Static
 
+### 13주차
+* 인터페이스 vs 추상 클래스
+* `hashCode()` vs `equals()`
+
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
@@ -80,3 +84,4 @@
 | 22.02.08 | GC 모니터링 | JVM 모니터링 |
 | 22.02.15 | Java 언어 관련 | JCF - List, Queue |
 | 22.03.01 | Static | JCF - Set, Map |
+| 22.03.08 | `hashCode()` vs `equals()` | 인터페이스 vs 추상 클래스 |
