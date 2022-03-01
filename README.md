@@ -62,9 +62,9 @@
 * Java 언어 관련
 * JCF - List, Queue
 
-### 11주차
+### 12주차
 * JCF - Set, Map
-* 함수형 인터페이스가 등장한 이유
+* Static
 
 ## Timeline
 | 날짜 | 진영 | 상우 |
@@ -79,4 +79,4 @@
 | 22.02.01 | G1 GC | JVM의 클래스 로더 |
 | 22.02.08 | GC 모니터링 | JVM 모니터링 |
 | 22.02.15 | Java 언어 관련 | JCF - List, Queue |
-| 22.02.22 | 함수형 인터페이스가 등장한 이유 | JCF - Set, Map |
+| 22.03.01 | Static | JCF - Set, Map |
