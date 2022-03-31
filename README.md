@@ -74,6 +74,10 @@
 * 원시 타입 vs 참조 타입
 * call by value vs call by reference
 
+### 17주차
+* 리플렉션
+* call by value vs call by reference
+
 ## Timeline
 | 날짜 | 진영 | 상우 |
 |--|--|--|
@@ -90,3 +94,4 @@
 | 22.03.01 | Static | JCF - Set, Map |
 | 22.03.24 | `hashCode()` vs `equals()` | 인터페이스 vs 추상 클래스 |
 | 22.03.31 | 원시 타입 vs 참조 타입 | call by value vs call by reference |
+| 22.04.07 | 리플렉션 | call by value vs call by reference |
